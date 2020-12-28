@@ -1,0 +1,196 @@
+//-----------------------------------------------------------//
+//---------- Shocklance Deathmatch mod preferences ----------//
+//-----------------------------------------------------------//
+
+$SLTDM::PrefsLoaded = 1.0;  // DON'T CHANGE THIS LINE
+
+//-----------------------------------------------------------//
+//--------------------- item removal ------------------------//
+//-----------------------------------------------------------//
+
+// RemoveAllItems
+// 0 = Keep all map items
+// 1 = Remove all map items (e.g., repair patches, repair kits)
+
+$SLTDM::Pref::RemoveAllItems = 0;
+
+//-----------------------------------------------------------//
+//------------------- armor restriction ---------------------//
+//-----------------------------------------------------------//
+
+// RestrictArmor
+// 1 = Only Scout available
+// 2 = Only Assault available
+// 3 = Only Scout and Assault available
+// 4 = Only Juggernaut available
+// 5 = Only Scout and Juggernaut available
+// 6 = Only Assault and Juggernaut available
+// 7 = All armors available
+
+$SLTDM::Pref::RestrictArmor = 7;
+
+//-----------------------------------------------------------//
+//--------------------- spawn options -----------------------//
+//-----------------------------------------------------------//
+
+// SpawnWithFaves
+// 0 = Spawn in default armor;
+//     No in-game change possible
+// 1 = Spawn in default armor;
+//     May be enabled/disabled by vote only
+// 2 = Spawn in default armor;
+//     May be enabled/disabled by admin only
+// 3 = Spawn in default armor;
+//     May be enabled/disabled by vote or admin
+// 4 = Spawn using selected favorite;
+//     No in-game change possible
+// 5 = Spawn using selected favorite;
+//     May be enabled/disabled by vote only
+// 6 = Spawn using selected favorite;
+//     May be enabled/disabled by admin only
+// 7 = Spawn using selected favorite;
+//     May be enabled/disabled by vote or admin
+
+$SLTDM::Pref::SpawnWithFaves = 3;
+
+//-----------------------------------------------------------//
+//------------------- inventory options ---------------------//
+//-----------------------------------------------------------//
+
+// InventoryStationAccess
+// 0 = Inventory Station Access disabled;
+//     No in-game change possible
+// 1 = Inventory Station Access disabled;
+//     May be enabled/disabled by vote only
+// 2 = Inventory Station Access disabled;
+//     May be enabled/disabled by admin only
+// 3 = Inventory Station Access disabled;
+//     May be enabled/disabled by vote or admin
+// 4 = Inventory Station access enabled;
+//     No in-game change possible
+// 5 = Inventory Station Access enabled;
+//     May be enabled/disabled by vote only
+// 6 = Inventory Station Access enabled;
+//     May be enabled/disabled by admin only
+// 7 = Inventory Station Access enabled;
+//     May be enabled/disabled by vote or admin
+// 8 = Remove all inventory stations from the map
+
+$SLTDM::Pref::InventoryStationAccess = 7;
+
+// InventoryStationAccessPenalty
+// 0 = No penalty for accessing inventory stations;
+//     No in-game change possible
+// 1 = No penalty for accessing inventory stations;
+//     May be enabled/disabled by vote only
+// 2 = No penalty for accessing inventory stations;
+//     May be enabled/disabled by admin only
+// 3 = No penalty for accessing inventory stations;
+//     May be enabled/disabled by vote or admin
+// 4 = Players are penalized for inventorty station access;
+//     No in-game change possible
+// 5 = Players are penalized for inventorty station access;
+//     May be enabled/disabled by vote only
+// 6 = Players are penalized for inventorty station access;
+//     May be enabled/disabled by admin only
+// 7 = Players are penalized for inventorty station access;
+//     May be enabled/disabled by vote or admin
+
+$SLTDM::Pref::InventoryStationAccessPenalty = 7;
+
+// InventoryStationTeleportation
+// 0 = Inventory stations behave normally;
+//     No in-game change possible
+// 1 = Inventory stations behave normally;
+//     May be enabled/disabled by vote only
+// 2 = Inventory stations behave normally;
+//     May be enabled/disabled by admin only
+// 3 = Inventory stations behave normally;
+//     May be enabled/disabled by vote or admin
+// 4 = Inventory stations become teleporters;
+//     No in-game change possible
+// 5 = Inventory stations become teleporters;
+//     May be enabled/disabled by vote only
+// 6 = Inventory stations become teleporters;
+//     May be enabled/disabled by admin only
+// 7 = Inventory stations become teleporters;
+//     May be enabled/disabled by vote or admin
+
+$SLTDM::Pref::InventoryStationTeleportation = 3;
+
+//-----------------------------------------------------------//
+//------------------- whiteout grenades ---------------------//
+//-----------------------------------------------------------//
+
+// AllowWhiteoutGrenades
+// 0 = Whiteout Grenades disabled;
+//     No in-game change possible
+// 1 = Whiteout Grenades disabled;
+//     May be enabled/disabled by vote only
+// 2 = Whiteout Grenades disabled;
+//     May be enabled/disabled by admin only
+// 3 = Whiteout Grenades disabled;
+//     May be enabled/disabled by vote or admin
+// 4 = Whiteout Grenades enabled;
+//     No in-game change possible
+// 5 = Whiteout Grenades enabled;
+//     May be enabled/disabled by vote only
+// 6 = Whiteout Grenades enabled;
+//     May be enabled/disabled by admin only
+// 7 = Whiteout Grenades enabled;
+//     May be enabled/disabled by vote or admin
+
+$SLTDM::Pref::AllowWhiteoutGrenades = 3;
+
+//-----------------------------------------------------------//
+//------------------ concussion grenades --------------------//
+//-----------------------------------------------------------//
+
+// AllowConcussionGrenades
+// 0 = Concussion Grenades disabled;
+//     No in-game change possible
+// 1 = Concussion Grenades disabled;
+//     May be enabled/disabled by vote only
+// 2 = Concussion Grenades disabled;
+//     May be enabled/disabled by admin only
+// 3 = Concussion Grenades disabled;
+//     May be enabled/disabled by vote or admin
+// 4 = Concussion Grenades enabled;
+//     No in-game change possible
+// 5 = Concussion Grenades enabled;
+//     May be enabled/disabled by vote only
+// 6 = Concussion Grenades enabled;
+//     May be enabled/disabled by admin only
+// 7 = Concussion Grenades enabled;
+//     May be enabled/disabled by vote or admin
+
+$SLTDM::Pref::AllowConcussionGrenades = 3;
+
+
+//-----------------------------------------------------------//
+//-------------------- normal grenades ----------------------//
+//-----------------------------------------------------------//
+
+// AllowNormalGrenades
+// 0 = Normal Grenades disabled;
+//     No in-game change possible
+// 1 = Normal Grenades disabled;
+//     May be enabled/disabled by vote only
+// 2 = Normal Grenades disabled;
+//     May be enabled/disabled by admin only
+// 3 = Normal Grenades disabled;
+//     May be enabled/disabled by vote or admin
+// 4 = Normal Grenades enabled;
+//     No in-game change possible
+// 5 = Normal Grenades enabled;
+//     May be enabled/disabled by vote only
+// 6 = Normal Grenades enabled;
+//     May be enabled/disabled by admin only
+// 7 = Normal Grenades enabled;
+//     May be enabled/disabled by vote or admin
+
+$SLTDM::Pref::AllowNormalGrenades = 3;
+
+//-----------------------------------------------------------//
+//---------------------- end of file ------------------------//
+//-----------------------------------------------------------//
